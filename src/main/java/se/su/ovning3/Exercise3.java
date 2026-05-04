@@ -43,7 +43,7 @@ public class Exercise3 {
 			}
 		}
 		catch(IOException e){
-			System.out.println(fileName + " Error while writing on the file");
+			System.err.println(fileName + " Error while writing on the file");
 		}
 	}
 
@@ -70,7 +70,7 @@ public class Exercise3 {
 			}
 		}
 		catch(IOException e){
-			System.out.println(fileName + " File not found");
+			System.err.println(fileName + " File not found");
 		}
 	}
 
@@ -100,7 +100,7 @@ public class Exercise3 {
 			}
 			
 		catch(IOException e){
-			System.out.println(fileName + "Cannot read file");
+			System.err.println(fileName + "Cannot read file");
 		}
 		
 		return importSales;
