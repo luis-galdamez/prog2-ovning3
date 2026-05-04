@@ -1,9 +1,10 @@
 package se.su.ovning3;
 
+import java.io.Serializable;
 import java.util.Collection;
 import java.util.Set;
 
-public class Recording{
+public class Recording implements Serializable {
 	private final int year;
 	private final String artist;
 	private final String title;
